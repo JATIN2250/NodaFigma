@@ -4,16 +4,19 @@ export default function Home(){
   const meeting = [
   {
     imageSrc: "/images/M1.svg",
+    imageAlt: "Image",
     title: "Stay Organized",
     description: "Centralized meeting directory where any member of the team can search, filter and find the information they need in one place, rather than separate devices & apps ",
   },
   {
     imageSrc: "/images/M2.svg",
+    imageAlt: "Image",
     title: "Keep Meetings Focused",
     description: "Noda enables product managers to maintain team alignemnt through effective meeting practices like agendas, collaborative note taking, decision tracking and more",
   },
   {
     imageSrc: "/images/M3.svg",
+    imageAlt: "Image",
     title: "Emphasize Execution",
     description: "Translate meeting discussions into actionable product decisions that push your objectives forward, enhance team productivity and improve collaboration for positive outcomes",
   },
@@ -104,6 +107,7 @@ export default function Home(){
             <FeatureCard
               key={feature.title} 
               imageSrc={feature.imageSrc}
+              imageAlt={feature.imageAlt}
               title={feature.title}
               description={feature.description}
             />
