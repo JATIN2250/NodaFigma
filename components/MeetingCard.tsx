@@ -9,7 +9,7 @@ interface FeatureCardProps {
 
 export default function FeatureCard({ imageSrc, imageAlt, title, description }: FeatureCardProps) {
   return (
-    <div className="bg-background rounded-lg shadow-md p-6 flex flex-col   h-[320px] w-[350px]">
+    <div className="bg-background rounded-lg shadow-md p-6 flex flex-col   h-[320px] w-[350px] relative z-10">
       <div className="mb-4 ml-[100px]">
         <Image src={imageSrc} alt={imageAlt} width={120} height={120} />
       </div>
