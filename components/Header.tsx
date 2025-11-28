@@ -1,3 +1,4 @@
+import Link from 'next/link';
 const Header = () => {
   return (
     <div className="pt-[45px]">
@@ -13,41 +14,35 @@ const Header = () => {
           ">
             Noda
           </div>
-
           <div className="flex gap-4 max-md:gap-3 max-sm:gap-2">
-            
-            <button className="
-              px-[32px] py-[15px] h-[60px] w-[154px] text-[18px] 
-
-              max-md:h-auto max-md:w-auto max-md:px-4 max-md:py-2 max-md:text-[16px]
-
-              max-sm:px-3 max-sm:py-1.5 max-sm:text-[14px] 
-
-              border-[1px] rounded-[10px] 
-              leading-[100%] font-montserrat font-medium text-brand-blue
-              
-              /* Added hover effect for Sign In */
-              border-brand-blue transition duration-300 hover:scale-105 hover:border-brand-blue
-              hover:shadow-[0_0_0_3px] hover:shadow-brand-blue/50
-            ">
+            <Link href="/SignIn">
+              <button className="
+                px-[32px] py-[15px] h-[60px] w-[154px] text-[18px] 
+                max-md:h-auto max-md:w-auto max-md:px-4 max-md:py-2 max-md:text-[16px]
+                max-sm:px-3 max-sm:py-1.5 max-sm:text-[14px] 
+                border-[1px] rounded-[10px] 
+                leading-[100%] font-montserrat font-medium text-brand-blue
+                border-brand-blue transition duration-300 hover:scale-105 hover:border-brand-blue
+                hover:shadow-[0_0_0_3px] hover:shadow-brand-blue/50">
               Sign In
-            </button>
-            <button className="
-              px-[32px] py-[15px] h-[60px] w-[154px] text-[18px] 
+              </button>
+            </Link>
+            <Link href="/SignUp">
+              <button className="
+                px-[32px] py-[15px] h-[60px] w-[154px] text-[18px] 
 
-              max-md:h-auto max-md:w-auto max-md:px-4 max-md:py-2 max-md:text-[16px]
+                max-md:h-auto max-md:w-auto max-md:px-4 max-md:py-2 max-md:text-[16px]
 
-              max-sm:px-3 max-sm:py-1.5 max-sm:text-[14px]
+                max-sm:px-3 max-sm:py-1.5 max-sm:text-[14px]
 
-              border-[1px] border-brand-blue rounded-[10px] 
-              leading-[100%] font-montserrat 
-              text-background bg-brand-blue font-bold
+                border-[1px] border-brand-blue rounded-[10px] 
+                leading-[100%] font-montserrat 
+                text-background bg-brand-blue font-bold
               
-              /* Added hover effect for Sign Up */
-              transition duration-300 hover:scale-105 hover:shadow-[0_0_0_3px] hover:shadow-brand-blue/50
-            ">
-              Sign Up
-            </button>
+                transition duration-300 hover:scale-105 hover:shadow-[0_0_0_3px] hover:shadow-brand-blue/50">
+                Sign Up
+              </button>
+            </Link>
           </div>
         </div>
       </header>

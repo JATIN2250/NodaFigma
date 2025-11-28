@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const Hero = () => {
   return (
     <section className="relative w-full pt-[210px] overflow-hidden 
@@ -26,16 +27,18 @@ const Hero = () => {
           ">
             Noda helps digital product teams improve the way they meet by encouraging productive meeting behaviors and adding structure to meeting facilitation
           </div>
+          <Link href="/SignUp">
+            <button className="
+              h-[60px] w-[217px] bg-brand-blue rounded-[10px]
+              max-lg:w-[180px] max-md:w-[150px] max-sm:w-[120px]
+              text-[20px] leading-[100%] text-background font-bold font-montserrat
+              max-md:text-[16px] max-sm:text-[14px] mt-[40px]
+              transition duration-300 hover:scale-105 hover:shadow-[0_0_0_3px] hover:shadow-brand-blue/50
+            ">
+              Sign Up
+            </button>
+          </Link> 
 
-          <button className="
-            h-[60px] w-[217px] bg-brand-blue rounded-[10px]
-            max-lg:w-[180px] max-md:w-[150px] max-sm:w-[120px]
-            text-[20px] leading-[100%] text-background font-bold font-montserrat
-            max-md:text-[16px] max-sm:text-[14px] mt-[40px]
-            transition duration-300 hover:scale-105 hover:shadow-[0_0_0_3px] hover:shadow-brand-blue/50
-          ">
-            Sign Up
-          </button>
         </div>
         <Image
           src="/images/HeroPic.svg"

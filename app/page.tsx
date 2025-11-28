@@ -1,7 +1,4 @@
-// app/page.tsx (or pages/index.tsx, depending on your Next.js setup)
 import React from "react";
-
-// Assuming components are imported from the components directory
 import Header from "@/components/Header"; 
 import Hero from "@/components/Hero";
 import Work from "@/components/Work";

@@ -5,6 +5,7 @@
   --foreground: #171717;
   --color-blue: #1155CC; 
   --color-black: #3F3F3F;
+  --color-white: #E8E8E8;
 }
 
 @theme inline {
@@ -18,6 +19,7 @@
   
   --color-brand-blue: var(--color-blue);
   --color-brand-black: var(--color-black);
+  --color-brand-white: var(--color-white);
 }
 
 
