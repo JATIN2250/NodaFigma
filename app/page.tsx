@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   description: "Noda helps product teams improve meeting quality by encouraging productive behaviors and adding structure.",
   openGraph: {
     title: 'Noda | Efficient Meetings',
+    images: [
+      {
+        url: 'https://noda-figma.vercel.app/images/HomeOg.png',
+        width: 1200,
+        height: 630,
+        alt: 'Noda Home Page Preview',
+      },
+    ],
     description: 'Noda helps product teams improve meeting quality.',
     url: 'https://noda-figma-jmjhikhg5-jitendra-tulswanis-projects.vercel.app/', 
     siteName: 'Noda',

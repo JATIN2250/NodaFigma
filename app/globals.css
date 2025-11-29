@@ -6,6 +6,7 @@
   --color-blue: #1155CC; 
   --color-black: #3F3F3F;
   --color-white: #E8E8E8;
+  --color-gray: #A1A1A1;
 }
 
 @theme inline {
@@ -20,6 +21,7 @@
   --color-brand-blue: var(--color-blue);
   --color-brand-black: var(--color-black);
   --color-brand-white: var(--color-white);
+  --color-brand-gray: var(--color-gray);
 }
 
 

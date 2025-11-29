@@ -25,6 +25,10 @@ export const keyFeatures = [
     title: "Decision & Action Item Tracking", 
     description: "Document what decisions were made in meetings and who has to do what" 
   },
+  
+  
+  
+
 ];
 
 export const useCasesData = [ // Renamed to avoid conflict if imported as 'useCases'
@@ -43,6 +47,24 @@ export const useCasesData = [ // Renamed to avoid conflict if imported as 'useCa
     description: "Centralized meeting directory where you can search",
     imageSrc: "/images/U3.png",
   },
+  {
+    title: "Freelancers",
+    description: "Centralized meeting directory where you can search",
+    imageSrc: "/images/usecase1.png",
+  },
+  {
+    title: "Financial Services",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    imageSrc: "/images/U2.png",
+  },
+  {
+    title: "Software Development",
+    description: "Centralized meeting directory where you can search",
+    imageSrc: "/images/U3.png",
+  },
+  
+  
+  
 ];
 
 export const footerLinksData = [ // Renamed to avoid conflict if imported as 'footerLinks'

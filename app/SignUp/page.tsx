@@ -21,7 +21,7 @@ export default function SignUp() {
     <section className="bg-white min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-4 w-full h-full">
 
-        <div className="[box-shadow:rgba(149,157,165,0.3)_0px_4px_18px] rounded-md w-full h-full min-h-[700px] flex overflow-hidden mx-auto">
+        <div className="[box-shadow:rgba(149,157,165,0.3)_0px_4px_18px] rounded-md w-full h-full min-h-[700px] flex overflow-hidden mx-auto bg-brand-blue/5">
 
           <div className="grid md:grid-cols-2 w-full h-full">
 
@@ -51,10 +51,10 @@ export default function SignUp() {
               </div>
             </div>
 
-            <form className="w-full p-12 flex flex-col justify-center h-full">
+            <form className="w-full p-12 flex flex-col justify-center h-full bg-background">
 
               <div className="mb-10 text-center">
-                <h1 className="text-[20px] font-montserrat font-bold text-blue-700">Sign Up</h1>
+                <p className="text-[20px] font-montserrat font-bold text-blue-700">Sign Up</p>
               </div>
 
               <div className="mb-4 relative lg:ml-15">
@@ -65,7 +65,7 @@ export default function SignUp() {
                 />
                 <label
                   htmlFor="fullname-input"
-                  className="absolute left-4 top-0 -translate-y-1/2 scale-[0.8] bg-white px-2 text-[14px] text-brand-blue font-medium"
+                  className="absolute left-4 top-0 -translate-y-1/2 scale-[0.8] bg-background px-2 text-[14px] text-brand-blue font-medium"
                 >
                   Full Name
                 </label>
@@ -76,11 +76,11 @@ export default function SignUp() {
                   type="email"
                   id="email-input"
                   required
-                  className="w-full lg:h-[48px] lg:w-[400px] text-sm border border-brand-blue rounded-md px-4 pt-[18px] pb-2 outline-none"
+                  className="w-full lg:h-[48px] lg:w-[400px] text-sm border border-brand-gray rounded-md px-4 pt-[18px] pb-2 outline-none"
                 />
                 <label
                   htmlFor="email-input"
-                  className="absolute left-4 top-0 -translate-y-1/2 scale-[0.8] bg-white px-2 text-[14px] text-brand-blue font-medium"
+                  className="absolute left-4 top-0 -translate-y-1/2 scale-[0.8] bg-background px-2 text-[14px] text-brand-gray font-medium"
                 >
                   Email Address
                 </label>
@@ -91,11 +91,11 @@ export default function SignUp() {
                   type="password"
                   id="password-input"
                   required
-                  className="w-full lg:h-[48px] lg:w-[400px] text-sm border border-brand-blue rounded-md px-4 pt-[18px] pb-2 outline-none"
+                  className="w-full lg:h-[48px] lg:w-[400px] text-sm border border-brand-gray rounded-md px-4 pt-[18px] pb-2 outline-none"
                 />
                 <label
                   htmlFor="password-input"
-                  className="absolute left-4 top-0 -translate-y-1/2 scale-[0.8] bg-white px-2 text-[14px] text-brand-blue font-medium"
+                  className="absolute left-4 top-0 -translate-y-1/2 scale-[0.8] bg-background px-2 text-[14px] text-brand-gray font-medium"
                 >
                   Password
                 </label>
@@ -105,11 +105,11 @@ export default function SignUp() {
                   type="password"
                   id="repeatPassword-input"
                   required
-                  className="w-full lg:h-[48px] lg:w-[400px] text-sm border border-brand-blue rounded-md px-4 pt-[18px] pb-2 outline-none"
+                  className="w-full lg:h-[48px] lg:w-[400px] text-sm border border-brand-gray rounded-md px-4 pt-[18px] pb-2 outline-none"
                 />
                 <label
                   htmlFor="repeatPassword-input"
-                  className="absolute left-4 top-0 -translate-y-1/2 scale-[0.8] bg-white px-2 text-[14px] text-brand-blue font-medium"
+                  className="absolute left-4 top-0 -translate-y-1/2 scale-[0.8] bg-background px-2 text-[14px] text-brand-gray font-medium"
                 >
                   Repeat Password
                 </label>
