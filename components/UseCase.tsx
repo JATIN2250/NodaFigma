@@ -1,9 +1,11 @@
 import Image from "next/image";
-import { useCasesData } from "@/public/constants/data"; 
+
+import { useCasesData } from "@/public/constants/data";
+
 
 const UseCase = () => {
   if (!useCasesData || useCasesData.length === 0) {
-    return null; 
+    return null;
   }
 
   return (
@@ -12,25 +14,25 @@ const UseCase = () => {
       
       <h2 className="
         text-[50px] leading-[120%] font-montserrat font-bold text-brand-blue text-center mb-[70px]
-        max-md:text-[38px] max-sm:text-[30px] max-md:mb-10 max-sm:mb-8 
+        max-md:text-[38px] max-sm:text-[30px] max-md:mb-10 max-sm:mb-8
         w-full max-w-[264px] mx-auto hover:underline hover:decoration-brand-blue
       ">
         Use Cases
       </h2>
       <div className="flex justify-center gap-8
-        max-lg:grid max-lg:grid-cols-2 max-lg:gap-6 
+        max-lg:grid max-lg:grid-cols-2 max-lg:gap-6
         max-md:grid-cols-1 max-md:gap-5">
         
         {useCasesData.map((useCase, index) => (
-          <div 
-            key={index} 
+          <div
+            key={index}
             className="w-full h-auto min-h-[300px] bg-background rounded-[10px] p-[20px] shadow-sm flex flex-col justify-start
             max-lg:w-full max-md:p-5
             transition duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-brand-blue/30"
           >
             <div className="relative w-full h-[220px] overflow-hidden rounded-[8px] group cursor-pointer">
               <Image
-                src={useCase.imageSrc} 
+                src={useCase.imageSrc}
                 alt={useCase.title}
                 fill
                 style={{ objectFit: 'cover' }}

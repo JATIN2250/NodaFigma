@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import Head from 'next/head';
 const Header = () => {
   return (
+    <>   
     <div className="pt-[45px]">
       <header>
         <div className="
@@ -47,6 +49,7 @@ const Header = () => {
         </div>
       </header>
     </div>
+    </>
   );
 };
 
